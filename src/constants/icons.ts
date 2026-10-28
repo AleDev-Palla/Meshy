@@ -1,0 +1,103 @@
+import type { ImageSource } from 'expo-image';
+
+import icAlert from '@/assets/icons/ic_alert.svg';
+import icArchive from '@/assets/icons/ic_archive.svg';
+import icArrowRight from '@/assets/icons/ic_arrow_right.svg';
+import icBack from '@/assets/icons/ic_back.svg';
+import icBluetoothActive from '@/assets/icons/ic_bluetooth_active.svg';
+import icBluetoothOff from '@/assets/icons/ic_bluetooth_off.svg';
+import icCamera from '@/assets/icons/ic_camera.svg';
+import icCenter from '@/assets/icons/ic_center.svg';
+import icComplaint from '@/assets/icons/ic_complaint.svg';
+import icContactCard from '@/assets/icons/ic_contact_card.svg';
+import icContacts from '@/assets/icons/ic_contacts.svg';
+import icCopy from '@/assets/icons/ic_copy.svg';
+import icDanger from '@/assets/icons/ic_danger.svg';
+import icDelete from '@/assets/icons/ic_delete.svg';
+import icEditContact from '@/assets/icons/ic_edit_contact.svg';
+import icEditProfile from '@/assets/icons/ic_edit_profile.svg';
+import icFaceScan from '@/assets/icons/ic_face_scan.svg';
+import icHealthcare from '@/assets/icons/ic_healthcare.svg';
+import icHome from '@/assets/icons/ic_home.svg';
+import icImage from '@/assets/icons/ic_image.svg';
+import icInfo from '@/assets/icons/ic_info.svg';
+import icLocationArrow from '@/assets/icons/ic_location_arrow.svg';
+import icLocationCurrent from '@/assets/icons/ic_location_current.svg';
+import icLocationLive from '@/assets/icons/ic_location_live.svg';
+import icLocationOff from '@/assets/icons/ic_location_off.svg';
+import icLocationStop from '@/assets/icons/ic_location_stop.svg';
+import icLock from '@/assets/icons/ic_lock.svg';
+import icMapPerson from '@/assets/icons/ic_map_person.svg';
+import icMessages from '@/assets/icons/ic_messages.svg';
+import icMoon from '@/assets/icons/ic_moon.svg';
+import icMoreVertical from '@/assets/icons/ic_more_vertical.svg';
+import icNotification from '@/assets/icons/ic_notification.svg';
+import icNotificationOff from '@/assets/icons/ic_notification_off.svg';
+import icPeer from '@/assets/icons/ic_peer.svg';
+import icPlus from '@/assets/icons/ic_plus.svg';
+import icPower from '@/assets/icons/ic_power.svg';
+import icPriority from '@/assets/icons/ic_priority.svg';
+import icPrivacy from '@/assets/icons/ic_privacy.svg';
+import icQr from '@/assets/icons/ic_qr.svg';
+import icSafePlace from '@/assets/icons/ic_safe_place.svg';
+import icSend from '@/assets/icons/ic_send.svg';
+import icSettings from '@/assets/icons/ic_settings.svg';
+import icShare from '@/assets/icons/ic_share.svg';
+import icTrustedContact from '@/assets/icons/ic_trusted_contact.svg';
+import icUnarchive from '@/assets/icons/ic_unarchive.svg';
+import icUser from '@/assets/icons/ic_user.svg';
+import icUserWarning from '@/assets/icons/ic_user_warning.svg';
+import icVibrate from '@/assets/icons/ic_vibrate.svg';
+
+export const Icons = {
+  alert: icAlert as ImageSource,
+  archive: icArchive as ImageSource,
+  arrowRight: icArrowRight as ImageSource,
+  back: icBack as ImageSource,
+  bluetoothActive: icBluetoothActive as ImageSource,
+  bluetoothOff: icBluetoothOff as ImageSource,
+  camera: icCamera as ImageSource,
+  center: icCenter as ImageSource,
+  complaint: icComplaint as ImageSource,
+  contactCard: icContactCard as ImageSource,
+  contacts: icContacts as ImageSource,
+  copy: icCopy as ImageSource,
+  danger: icDanger as ImageSource,
+  delete: icDelete as ImageSource,
+  editContact: icEditContact as ImageSource,
+  editProfile: icEditProfile as ImageSource,
+  faceScan: icFaceScan as ImageSource,
+  healthcare: icHealthcare as ImageSource,
+  home: icHome as ImageSource,
+  image: icImage as ImageSource,
+  info: icInfo as ImageSource,
+  locationArrow: icLocationArrow as ImageSource,
+  locationCurrent: icLocationCurrent as ImageSource,
+  locationLive: icLocationLive as ImageSource,
+  locationOff: icLocationOff as ImageSource,
+  locationStop: icLocationStop as ImageSource,
+  lock: icLock as ImageSource,
+  mapPerson: icMapPerson as ImageSource,
+  messages: icMessages as ImageSource,
+  moon: icMoon as ImageSource,
+  moreVertical: icMoreVertical as ImageSource,
+  notification: icNotification as ImageSource,
+  notificationOff: icNotificationOff as ImageSource,
+  peer: icPeer as ImageSource,
+  plus: icPlus as ImageSource,
+  power: icPower as ImageSource,
+  priority: icPriority as ImageSource,
+  privacy: icPrivacy as ImageSource,
+  qr: icQr as ImageSource,
+  safePlace: icSafePlace as ImageSource,
+  send: icSend as ImageSource,
+  settings: icSettings as ImageSource,
+  share: icShare as ImageSource,
+  trustedContact: icTrustedContact as ImageSource,
+  unarchive: icUnarchive as ImageSource,
+  user: icUser as ImageSource,
+  userWarning: icUserWarning as ImageSource,
+  vibrate: icVibrate as ImageSource,
+} as const;
+
+export type IconName = keyof typeof Icons;
